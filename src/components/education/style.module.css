@@ -1,0 +1,149 @@
+.educationTitle {
+  padding: 55px 13% 70px 48px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 77px;
+}
+.eduCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 12px;
+}
+.pageCount {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1a1a1a;
+}
+
+.eduCont h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a1a1a;
+}
+
+.pageCount {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.eduInputs {
+  padding: 0 13%;
+  padding-bottom: 59px;
+}
+.brder {
+  width: 100%;
+  height: 1px;
+  background-color: #c1c1c1;
+}
+.nameInput {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 58px;
+  column-gap: 56px;
+}
+.diplom {
+  width: 100%;
+  padding-left: 1px;
+}
+.diplom label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 8px;
+  display: block;
+  color: #000000;
+}
+.diplom select {
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  outline: none;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1px;
+  margin-bottom: 56px;
+  padding-right: 1.5%;
+}
+
+.textArea p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.textArea textarea {
+  resize: none;
+  border: 2px solid #bcbcbc;
+  outline: none;
+  padding: 8px 8px;
+}
+
+.mail {
+  margin-bottom: 28px;
+}
+
+.nextBtn {
+  margin-top: 100px;
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 65px;
+}
+
+.nextBtn button {
+  width: 151px;
+  height: 48px;
+  background: #6b40e3;
+  border-radius: 4px;
+  font-weight: 500;
+  outline: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.position,
+.employer {
+  margin-bottom: 31px;
+}
+.dateInputs {
+  margin-bottom: 31px;
+  display: flex;
+  column-gap: 56px;
+}
+
+.addBtn {
+  padding: 0 15%;
+}
+
+.addBtn button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 289px;
+  height: 48px;
+  background: #62a1eb;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}

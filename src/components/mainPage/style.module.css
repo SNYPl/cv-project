@@ -1,0 +1,57 @@
+.mainPage {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainPage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  padding: 25px 70px;
+  padding-bottom: 0;
+}
+
+.headerCont {
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 26px;
+}
+
+.buttonSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 94px);
+  overflow: hidden;
+}
+
+.buttonCont {
+  position: relative;
+}
+
+.buttonCont img {
+  position: absolute;
+  top: -38px;
+  right: -162px;
+  z-index: 5;
+}
+
+.buttonSection button {
+  cursor: pointer;
+  z-index: 6;
+  width: 464px;
+  height: 60px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  /* padding: 18px 60px; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}

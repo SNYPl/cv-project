@@ -1,0 +1,64 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.inputContainer label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.inputContainer svg {
+  position: absolute;
+  right: -20px;
+  top: 40px;
+}
+
+.successSvg {
+  top: 42px !important;
+  right: 22px !important;
+}
+
+.inputContainer input {
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #bcbcbc;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+  padding-left: 16px;
+  padding-right: 45px;
+  margin-bottom: 6px;
+  width: 98.5%;
+  outline: none;
+}
+
+.inputContainer p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+
+  color: #2e2e2e;
+}
+
+.error {
+  color: #e52f2f !important;
+}
+
+.borderError {
+  border: 2px solid #e52f2f !important;
+}
+
+.successError {
+  border: 1px solid #98e37e !important;
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: helveticaNeu;
+  src: "./assets\font\HelveticaNeue.ttc";
+}
+
+body {
+  margin: 0;
+  font-family: helveticaNeu, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: helveticaNeu, source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
