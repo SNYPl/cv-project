@@ -51,6 +51,12 @@
 .diplom {
   width: 100%;
   padding-left: 1px;
+  position: relative;
+}
+.diplom svg {
+  position: absolute;
+  right: 30px;
+  top: 45px;
 }
 .diplom label {
   font-weight: 500;
@@ -146,4 +152,26 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.disableBtn {
+  background: gray !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+.errorMsgColor {
+  color: red !important;
+}
+
+.textAreaError {
+  color: red !important;
+}
+
+.successArea {
+  border: 2px solid #98e37e !important;
+}
+
+.errorArea {
+  border: 2px solid #e52f2f !important;
 }

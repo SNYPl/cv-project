@@ -128,3 +128,21 @@
   line-height: 20px;
   color: #ffffff;
 }
+
+.textAreaError {
+  color: red !important;
+}
+
+.disableBtn {
+  background: gray !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+.successArea {
+  border: 2px solid #98e37e !important;
+}
+
+.errorArea {
+  border: 2px solid #e52f2f !important;
+}

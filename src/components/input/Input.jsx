@@ -53,7 +53,13 @@ const Input = (props) => {
           />
         </svg>
       )}
-      <p>{props.error ? props.helper : props.helper}</p>
+      <p
+        className={`${props.error ? style.error : ""} ${
+          props.success ? style.success : ""
+        }`}
+      >
+        {props.error ? props.error : props.helper}
+      </p>
     </div>
   );
 };

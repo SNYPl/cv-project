@@ -83,6 +83,10 @@
   cursor: pointer;
   opacity: 0;
 }
+.uploadError {
+  margin-left: 16px;
+  color: red;
+}
 
 .textArea {
   display: flex;
@@ -162,4 +166,10 @@
   color: #ffffff;
   border: none;
   cursor: pointer;
+}
+
+.disableBtn {
+  background: gray !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
 }

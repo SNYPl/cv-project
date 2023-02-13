@@ -1,10 +1,6 @@
 .mainSection {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   background: #f9f9f9;
   height: 100%;
-}
-
-.cvShow {
-  background-color: #fff;
 }
