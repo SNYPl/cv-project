@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9087427c.css",
+    "main.js": "/static/js/main.f609c4d7.js",
+    "static/media/background.png": "/static/media/background.0fc01e7e5bdaa3d9ee86.png",
+    "static/media/centerLogo.png": "/static/media/centerLogo.6433ee9b55e2ae010568.png",
+    "index.html": "/index.html",
+    "main.9087427c.css.map": "/static/css/main.9087427c.css.map",
+    "main.f609c4d7.js.map": "/static/js/main.f609c4d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9087427c.css",
+    "static/js/main.f609c4d7.js"
+  ]
+}
